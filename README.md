@@ -8,6 +8,8 @@ A tool used to bypass MAC based NAC
 
 A tool to search whitelisted OUI MAC assress on NAC.
 
+![MacFinder usage](MacOUIFinder.png)
+
 For example, if a Logitech OUI is whitelisted on the client network, that tool should find it after testing all the OUI (or juste the Logitech OUI).
 For that, DHCP request with a MAC address composed of the OUI to test for the first half and a random part for the second half was send.
 If a DHCP offer came back, a valid OUI was found.
